@@ -8,6 +8,9 @@ private:
     string netID;
     string name;
     int age;
+
+    // we need to add this to declare GradeBook as a friend class
+    friend class GradeBook;
 public:
     Student() {}
     Student(string netID, string name, int age)
